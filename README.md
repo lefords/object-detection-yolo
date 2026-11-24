@@ -1,6 +1,27 @@
-Object Detection YOLO
+# Object Detection YOLO
+
 Приложение для распознавания объектов на видео, фото и с веб-камеры.
-Стек: Python, YOLO11, OpenCV, PyQt6.
-Возможности: выбор классов COCO, детекция огня по HSV-маске, счётчик объектов, прокрутка видео, работа с RTSP-потоком.
-Установка: pip install -r requirements.txt
-Запуск: python main.py
+
+## Стек
+
+- Python
+- YOLO11 (ultralytics)
+- OpenCV
+- PyQt6
+- Pillow
+
+## Возможности
+
+- Выбор классов COCO для детекции
+- Детекция огня по HSV-маске
+- Счётчик объектов в реальном времени
+- Прокрутка видео по кадрам
+- Работа с RTSP-потоком и веб-камерой
+- Русский интерфейс с переводом классов
+
+## Установка
+
+```bash
+git clone https://github.com/lefords/object-detection-yolo.git
+cd object-detection-yolo
+pip install -r requirements.txt
